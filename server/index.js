@@ -5,9 +5,9 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const authRoutes = require('./routes/auth');
-const eventRoutes = require('./routes/events');
-const bookingRoutes = require('./routes/bookings');
+const authRoutes = require('./routes/auth.js');
+const eventRoutes = require('./routes/events.js');
+const bookingRoutes = require('./routes/booking.js');
 
 const app = express();
 
